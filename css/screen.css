@@ -15,7 +15,8 @@ header{
   width: 100vw;
 }
 header h2{
-  padding: 15px;
+  padding: 35px 15px 0px 15px;
+  text-align: center;
 }
 main{
   height: 65vh;
@@ -33,19 +34,34 @@ nav{
   justify-content: center;
   align-items: center;
   align-content: center;
+  text-align: center;
 }
 nav a{
   text-align: center;
-  width: 33vw;
+  width: 66vw;
   height: 100vh;
   text-decoration: none;
-  border-right: black 1px solid;
-  border-left: black 1px solid;
   font-size: 2.25rem;
   color: black;
+  padding: 15px 0 0 0;
   text-shadow: .1px .1px 1px rgba(194, 80, 80, .5);
+  background-color: rgba(15, 15, 65, 0.1);
 }
 iframe{
 height: 100%;
 width: 100%;
+}
+@media screen and (max-width: 400px){
+  nav a{
+    font-size: 1.5rem;
+    width: 75vw;
+  }
+  header h2{
+    display: none;
+    visibility: hidden;
+  }
+  header img{
+    width: 95%;
+    margin: 0;
+    padding: 0;
 }
