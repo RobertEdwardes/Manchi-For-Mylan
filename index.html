@@ -15,23 +15,35 @@
     <script src-"js/modernizer-custom.js"></script>
     <link href="css/screen.css" rel="stylesheet" type="text/css" />
     <link href="css/print.css" media="print" rel="stylesheet" type="text/css" />
+    <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
     <!--[if IE]>
         <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <![endif]-->
   </head>
   <body class="grid-1_25-1_65-1_10">
-    <header role="banner">
-      <img class="center logo" src="img/manchin4mylan-320-100.png"/>
-      <h2>Serving big Pharama since 1987</h2>
-    </header>
-    <main class="main">
-      <!-- slide show of manchin and mylan -->
-      <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1GDwuSH5MF3ft579Jn7z7wCISfjEKyPgaCBDAsSAXFiI&font=Default&lang=en&initial_zoom=2' webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no" frameborder='0' width="" height=""></iframe>
-    </main>
-    <footer>
-      <nav>
-        <a href="pay-off.html">the pay offs</a>
-      </nav>
-    </footer>
+    <section>
+      <header role="banner">
+        <img class="center logo" src="img/manchin4mylan-320-100.png" alt="manchin for mylan" />
+        <h2>Serving big Pharama since 1987</h2>
+      </header>
+      <main class="main">
+        <!-- slide show of manchin for mylan JSON-->
+      <div id='timeline-embed' style="width: 100%; height: 100%"></div>
+      </main>
+      <footer>
+        <nav>
+          <a href="pay-off.html">the pay offs</a>
+        </nav>
+      </footer>
+    </section>
+    <section>
+      <a href="digitalroots.io">Desgined by Digital Roots</a>
+    </section>
   </body>
+  <script type="text/javascript">
+        var timeline_json = make_json(); // replace make_the_json() with the JSON object
+        timeline = new TL.Timeline('timeline-embed',
+          timeline_json);
+      </script>
 </html>

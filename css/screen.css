@@ -5,6 +5,8 @@
   box-sizing: border-box;
   background-image: linear-gradient(to bottom, #fbefef, #effbfb );
   padding: 0 10;
+  width: 100vw;
+  hieght: 100vh;
 }
 header{
   display: flex;
