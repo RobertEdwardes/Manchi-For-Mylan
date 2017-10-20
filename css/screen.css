@@ -8,6 +8,15 @@
   width: 100vw;
   hieght: 100vh;
 }
+@font-face {
+  font-family: Hamurz;
+  src: url("webfonts/Hamurz Free Version.otf");
+}
+.Hamurz {
+  font-family: Hamurz;
+  font-size: calc(.875 + 0.45vw);
+  -webkit-font-smoothing: antialiased;
+}
 header{
   display: flex;
   flex-flow: row wrap;
