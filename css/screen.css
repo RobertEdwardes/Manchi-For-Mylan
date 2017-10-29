@@ -76,7 +76,7 @@ main{
   justify-content: space-between;
   width: 100vw;
 }
-#slideshow-container{
+#show-container{
   display: flex;
   flex-flow: row wrap-reverse;
   align-items: stretch;
@@ -119,25 +119,12 @@ footer nav a{
     width: 95%;
     margin: 0;
     padding: 0;
+  }
 }
-/* rwd video */
-iframe {
-width: 100%;
-height:auto;
+/* content areas */
+.text{
+  max-width: 50vw;
 }
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-}
-.video-container iframe,
-.video-container object,
-.video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.media{
+  max-width: 50vw;
 }
