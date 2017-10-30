@@ -128,3 +128,8 @@ footer nav a{
 .media{
   max-width: 50vw;
 }
+
+.col-1-1{
+  overflow-x: hidden;
+  padding: .15rem .1rem;
+}
