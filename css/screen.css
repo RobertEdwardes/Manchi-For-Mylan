@@ -1,8 +1,11 @@
-.grid-1_25-1_65-1_10{
-  display: flex;
-  overflow: hidden;
+body{
+  overflow-x: hidden;
+  display: flex
   flex-flow: column;
   box-sizing: border-box;
+}
+.grid-1_25-1_65-1_10{
+  overflow: hidden;
   background-image: linear-gradient(to bottom, #fbefef, #effbfb );
   padding: 0 10;
   width: 100vw;
