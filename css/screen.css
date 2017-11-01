@@ -1,6 +1,6 @@
 body{
   overflow-x: hidden;
-  display: flex
+  display: flex;
   flex-flow: column;
   box-sizing: border-box;
 }
@@ -132,7 +132,37 @@ footer nav a{
   max-width: 50vw;
 }
 
-.col-1-1{
-  overflow-x: hidden;
-  padding: .15rem .1rem;
+main.second{
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  justify-content: space-between;
+  align-content: space-between;
+}
+main.second article{
+  display: flex;
+  flex-flow: column;
+}
+main.second article section{
+  padding: 0 6rem;
+  margin: 0 .6rem;
+}
+.col-1-1-1{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-image: linear-gradient(to top, #fbefef, #effbfb, #fbefef);
+  width: 100vw;
+  height: 100vh;
+  margin-top: 1rem;
+}
+main.second header{
+  background-image: url('http://researchturkey.org/wp-content/uploads/2016/03/corruption-580x300.png');
+  filter: opacity(.7);
+  height: 350px;
+}
+main.second header h1{
+  margin: 0;
+  padding: 0;
+  text-shadow: .5px .5px 2px black, 1px 1px 1px gray, .1px .1px 5px #fbefef;
 }
