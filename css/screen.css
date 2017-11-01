@@ -165,4 +165,5 @@ main.second header h1{
   margin: 0;
   padding: 0;
   text-shadow: .5px .5px 2px black, 1px 1px 1px gray, .1px .1px 5px #fbefef;
+  font-size: 4rem;
 }
