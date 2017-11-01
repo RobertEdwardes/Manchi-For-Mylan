@@ -142,10 +142,20 @@ main.second{
 main.second article{
   display: flex;
   flex-flow: column;
+  align-items:
 }
 main.second article section{
   padding: 0 6rem;
   margin: 0 .6rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+main.second article section h3{
+  margin: .5rem 0 0 0;
+  padding: .5rem 0 0 0;
+  font-size: 2rem;
 }
 .col-1-1-1{
   display: flex;
@@ -159,7 +169,7 @@ main.second article section{
 main.second header{
   background-image: url('http://researchturkey.org/wp-content/uploads/2016/03/corruption-580x300.png');
   filter: opacity(.7);
-  height: 350px;
+  height: 1000px;
 }
 main.second header h1{
   margin: 0;
