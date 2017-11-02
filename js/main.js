@@ -16,6 +16,5 @@ function showDivs(n) {
     x[slideIndex-1].style.display = "flex";
 }
 $(document).ready(function(){
-   // Target your .container, .wrapper, .post, etc.
    $(".video").fitVids();
  });
