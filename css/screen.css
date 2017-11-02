@@ -6,7 +6,7 @@ body{
 }
 .grid-1_25-1_65-1_10{
   overflow: hidden;
-  background-image: linear-gradient(to bottom, #fbefef, #effbfb );
+  background-image: linear-gradient(to bottom, #fbefef, #effbfb);
   padding: 0 10;
   width: 100vw;
   height: 100vh;
@@ -72,7 +72,7 @@ header h2{
   text-align: center;
 }
 main{
-  height: 65vh;
+  height: 75vh;
   display: flex;
   flex-flow: column wrap-reverse;
   align-items: center;
@@ -100,8 +100,8 @@ footer nav{
 }
 footer nav a{
   text-align: center;
-  width: 66vw;
-  height: 100vh;
+  width: 100vw;
+  height: 4rem;
   text-decoration: none;
   font-size: 2.25rem;
   color: black;
@@ -112,7 +112,6 @@ footer nav a{
 @media screen and (max-width: 400px){
   footer nav a{
     font-size: 1.5rem;
-    width: 75vw;
   }
   header h2{
     display: none;
@@ -177,4 +176,32 @@ main.second header h1{
   padding: 0;
   text-shadow: .5px .5px 2px black, 1px 1px 1px gray, .1px .1px 5px #fbefef;
   font-size: 4rem;
+}
+@media screen and (max-width: 500px){
+  .mySlides{
+    display: flex;
+    flex-flow: column;
+  }
+  .hidden-moblie{
+    display: none;
+    visibility: collapse;
+  }
+  .grid-1_25-1_65-1_10{
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    width: 100vw;
+    height: 100%;
+    flex-flow: column;
+    background-image: linear-gradient(to bottom, #fbefef, #effbfb, #fbefef );
+  }
+  main{
+    display: flex;
+    flex-flow: column;
+  }
+  .wrap{
+    display: flex;
+    flex-flow: column;
+    align-content: space-between;
+  }
 }
