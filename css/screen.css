@@ -109,20 +109,6 @@ footer nav a{
   text-shadow: .1px .1px 1px rgba(194, 80, 80, .5);
   background-color: rgba(15, 15, 65, 0.1);
 }
-@media screen and (max-width: 400px){
-  footer nav a{
-    font-size: 1.5rem;
-  }
-  header h2{
-    display: none;
-    visibility: hidden;
-  }
-  header img{
-    width: 95%;
-    margin: 0;
-    padding: 0;
-  }
-}
 /* content areas */
 .text{
   max-width: 50vw;
@@ -195,13 +181,46 @@ main.second header h1{
     flex-flow: column;
     background-image: linear-gradient(to bottom, #fbefef, #effbfb, #fbefef );
   }
+ main.second article, main.second article{
+   display: flex;
+   padding: 0 .8rem;
+   margin: 0 .8rem;
+   flex-flow: column;
+   align-content: center;
+   justify-content: center;
+  }
+  .col-1-1-1 *{
+    padding: 0 .875rem !important;
+    margin: 0 .875rem !important;
+    width: 100vw;
+  }
   main{
     display: flex;
     flex-flow: column;
+    height: 100%;
   }
   .wrap{
     display: flex;
     flex-flow: column;
     align-content: space-between;
   }
+  footer nav a{
+    font-size: 1.5rem;
+  }
+  header h2{
+    display: none;
+    visibility: hidden;
+  }
+  header img{
+    width: 65%;
+    margin: 0;
+    padding: 0;
+  }
+  header{
+    width: 100vw;
+  }
+  p{
+    word-break: keep-all;
+  }
 }
+/* ortiation land acap add */ 
