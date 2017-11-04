@@ -11,8 +11,6 @@
     <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
-    <script src="js/jquery.fitvids.js"></script>
-    <script src="js/main.js"></script>
     <script src-"js/modernizer-custom.js"></script>
     <link href="css/screen.css" rel="stylesheet" type="text/css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -25,77 +23,13 @@
       gtag('config', 'UA-66271023-3');
     </script>
   </head>
-  <body onload="plusDivs(0)">
-    <section class="wrap grid-1_25-1_65-1_10">
+  <body>
+    <section class="wrap">
       <header role="banner Hamurz">
         <img class="center logo" src="img/manchin4mylan-320-100.png" alt="manchin for mylan" />
-        <h2>Serving big Pharama since 1987</h2>
+        <h2>Serving big Pharama since 1982</h2>
       </header>
-      <main class="main">
-        <div id="slideshow-container">
-          <div class="mySlides">
-            <section class="media">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Joe_Manchin_official_portrait_112th_Congress.jpg/220px-Joe_Manchin_official_portrait_112th_Congress.jpg" />
-              <captio></captio>
-            </section>
-            <section class="text">
-              <h1><b>Joe Manchin</b></h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et ultricies ex. Fusce malesuada lorem sit amet magna feugiat egestas nullam.
-              </p>
-            </section>
-          </div>
-          <div class="mySlides">
-            <section class="media video">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/aVS4W7GZSq0" frameborder="0" allowfullscreen></iframe>
-            </section>
-            <section class="text hidden-moblie">
-              <h1><b>video</b></h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et ultricies ex. Fusce malesuada lorem sit amet magna feugiat egestas nullam.
-              </p>
-          </div>
-          <div class="mySlides">
-            <section class="media twitter">
-              <blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">TFW you hit 1 million listens on your podcast!<br><br>Celebrate with your favorite Glass Case of Emotion GIFs on <a href="https://twitter.com/GIPHY?ref_src=twsrc%5Etfw">@GIPHY</a>: <a href="https://t.co/eJkohzbxNF">https://t.co/eJkohzbxNF</a> <a href="https://t.co/QvBwVDFlYy">pic.twitter.com/QvBwVDFlYy</a></p>&mdash; #NASCARPlayoffs (@NASCAR) <a href="https://twitter.com/NASCAR/status/925789825881591809?ref_src=twsrc%5Etfw">November 1, 2017</a></blockquote>
-              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </section>
-            <section class="text hidden-moblie">
-              <h1><b>Twitter</b></h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et ultricies ex. Fusce malesuada lorem sit amet magna feugiat egestas nullam.
-              </p>
-            </section>
-          </div>
-        </div>
-        <nav>
-          <button onclick="plusDivs(-1)">&#10094;</button>
-          <button onclick="plusDivs(1)">&#10095;</button>
-        </nav>
-        <footer>
-          <nav>
-            <a href="pay-off.html">The Pay Offs</a>
-          </nav>
-        </footer>
-      </main>
+      <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1wzl1I8rjHmO8xMod4Wx4mxI2QUgkULCO1qNC9q4lA1M&font=Default&lang=en&initial_zoom=2' width='100%' height='75%' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
     </section>
-    <script>var slideIndex = 1;
-    showDivs(slideIndex);
-
-    function plusDivs(n) {
-        showDivs(slideIndex += n);
-    }
-
-    function showDivs(n) {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        if (n > x.length) {slideIndex = 1};
-        if (n < 1) {slideIndex = x.length} ;
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-        x[slideIndex-1].style.display = "flex";
-    }
-    </script>
   </body>
 </html>
