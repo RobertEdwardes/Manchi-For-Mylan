@@ -1,63 +1,9 @@
-body{
-  overflow-x: hidden;
-  display: flex;
-  flex-flow: column;
-  box-sizing: border-box;
-}
-.grid-1_25-1_65-1_10{
-  overflow: hidden;
-  background-image: linear-gradient(to bottom, #fbefef, #effbfb);
-  padding: 0 10;
-  width: 100vw;
-  height: 100vh;
-}
 @font-face {
   font-family: Hamurz;
   src: url("webfonts/Hamurz Free Version.otf");
 }
 .Hamurz {
   font-family: Hamurz;
-}
-main nav{
-  height: 10vh;
-  width: 100vw;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: center;
-}
-.mySlides{
-  display: flex;
-  flex-flow: row wrap-reverse;
-  align-items: center;
-  justify-content: space-around;
-  width: 100vw;
-  height: 100%;
-}
-section.media{
-  display: flex;
-  justify-content: center;
-  width: 60vw;
-  height: 100%;
-}
-section.text{
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: flex-start;
-  width: 40vw;
-  height: 100%;
-}
-main nav button{
-  border: none;
-  border-radius: 0;
-  font-size: 1rem;
-  padding: .2rem;
-  margin: .3rem;
-  width: 25vw;
-  height: 100%;
-  background-color: rgba(150, 42, 2, .1);
-  font-size: 2.25rem;
 }
 header{
   display: flex;
@@ -71,156 +17,12 @@ header h2{
   padding: 35px 15px 0px 15px;
   text-align: center;
 }
-main{
-  height: 75vh;
-  display: flex;
-  flex-flow: column wrap-reverse;
-  align-items: center;
-  justify-content: space-between;
-  width: 100vw;
-}
-#show-container{
-  display: flex;
-  flex-flow: row wrap-reverse;
-  align-items: stretch;
-  justify-content: space-between;
-}
-footer{
-  height: 10vh;
-  display: block;
-  vw: 100vw;
-}
-footer nav{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  text-align: center;
-}
-footer nav a{
-  text-align: center;
-  width: 100vw;
-  height: 4rem;
-  text-decoration: none;
-  font-size: 2.25rem;
-  color: black;
-  padding: .875rem 0 0 0;
-  text-shadow: .1px .1px 1px rgba(194, 80, 80, .5);
-  background-color: rgba(15, 15, 65, 0.1);
-}
-/* content areas */
-.text{
-  max-width: 50vw;
-}
-.media{
-  max-width: 50vw;
-}
-
-main.second{
-  display: flex;
-  flex-flow: column;
+.wrap{
   height: 100vh;
-  justify-content: space-between;
-  align-content: space-between;
-}
-main.second article{
-  display: flex;
-  flex-flow: column;
-  align-items:
-}
-main.second article section{
-  padding: 0 6rem;
-  margin: 0 .6rem;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: space-between;
-}
-main.second article section h3{
-  margin: .5rem 0 0 0;
-  padding: .5rem 0 0 0;
-  font-size: 2rem;
-}
-.col-1-1-1{
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  background-image: linear-gradient(to top, #fbefef, #effbfb, #fbefef);
   width: 100vw;
-  height: 100vh;
-  margin-top: 1rem;
-}
-main.second header{
-  background-image: url('http://researchturkey.org/wp-content/uploads/2016/03/corruption-580x300.png');
-  filter: opacity(.7);
-  height: 1000px;
-  box-shadow: inset .5px .5px 1px black;
-}
-main.second header h1{
-  margin: 0;
   padding: 0;
-  text-shadow: .5px .5px 2px black, 1px 1px 1px gray, .1px .1px 5px #fbefef;
-  font-size: 4rem;
+  margin: 0;
 }
-@media screen and (max-width: 500px){
-  .mySlides{
-    display: flex;
-    flex-flow: column;
-  }
-  .hidden-moblie{
-    display: none;
-    visibility: collapse;
-  }
-  .grid-1_25-1_65-1_10{
-    padding: 0;
-    margin: 0;
-    overflow-y: auto;
-    width: 100vw;
-    height: 100%;
-    flex-flow: column;
-    background-image: linear-gradient(to bottom, #fbefef, #effbfb, #fbefef );
-  }
- main.second article, main.second article{
-   display: flex;
-   padding: 0 .8rem;
-   margin: 0 .8rem;
-   flex-flow: column;
-   align-content: center;
-   justify-content: center;
-  }
-  .col-1-1-1 *{
-    padding: 0 .875rem !important;
-    margin: 0 .875rem !important;
-    width: 100vw;
-  }
-  main{
-    display: flex;
-    flex-flow: column;
-    height: 100%;
-  }
-  .wrap{
-    display: flex;
-    flex-flow: column;
-    align-content: space-between;
-  }
-  footer nav a{
-    font-size: 1.5rem;
-  }
-  header h2{
-    display: none;
-    visibility: hidden;
-  }
-  header img{
-    width: 65%;
-    margin: 0;
-    padding: 0;
-  }
-  header{
-    width: 100vw;
-  }
-  p{
-    word-break: keep-all;
-  }
+body{
+  overflow: hidden;
 }
-/* ortiation land acap add */ 
